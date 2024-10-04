@@ -1,4 +1,4 @@
-#creating a component here
+//creating a component here
 const App = () =>{
   return (
     <div>
