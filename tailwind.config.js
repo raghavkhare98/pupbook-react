@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js, ts, jsx, tsx}", //this will help look for tailwind classes in files of these extensions
+    "/index.html",
+    "/src/**/*.{js, ts, jsx, tsx}", //this will help look for tailwind classes in files of these extensions
   ],
   theme: {
     extend: {
