@@ -1,12 +1,8 @@
 //creating a component here
+
+import Header from "./components/Header";
+
 const App = () =>{
-  
-  const heroTextPStyle = {
-    color: "#F9FaF8", 
-    fontSize: "48px",
-    margin: "0px",
-    fontWeight: "bolder"
-  }
 
   const randomInfoDivStyle = {
     textAlign: "center",
@@ -58,24 +54,7 @@ const App = () =>{
 
   return (
     <>
-    <div className="header-and-hero">
-        <div className="header-flex">
-            <h2>Pupbook</h2>
-            <ul style={{listStyle: "none"}}>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div className="hero-flex">
-            <div className="hero-text-section">
-                <p style={heroTextPStyle}>This website is pawsome</p>
-                <p>Pupbook is a social media service for puppers where they can chat, share images, host events or request treatos!</p>
-                <button>Sign up</button>
-            </div>
-            <img src="./resources/hero-img.jpg" alt="Pupbook introduction image" width="600px" height="280px"/>
-        </div>
-    </div>
+    <Header />
     <div className="random-info-div" style={{padding: "8px 120px"}}>
         <p style={randomInfoDivStyle}>Current Pupbook users.</p>
         <div className="cards">
