@@ -1,3 +1,5 @@
+import heroImg from "../assets/images/hero-img.jpg";
+
 const Header = () => {
     
     const heroTextPStyle = {
@@ -24,7 +26,8 @@ const Header = () => {
                 <p>Pupbook is a social media service for puppers where they can chat, share images, host events or request treatos!</p>
                 <button>Sign up</button>
             </div>
-            <img src="./resources/hero-img.jpg" alt="Pupbook introduction image" width="600px" height="280px"/>
+            <img src={heroImg} alt="Pupbook introduction image" width="600px" height="280px"/> 
+            {/* To add external stuff, we will use {} and it will hence help us in keeping everything dynamic*/}
         </div>
     </div>
         </>
