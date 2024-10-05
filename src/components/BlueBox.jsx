@@ -35,3 +35,5 @@ const BlueBox = () => {
         </div>
     )
 }
+
+export default BlueBox;
