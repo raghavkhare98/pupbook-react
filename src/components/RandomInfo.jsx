@@ -1,4 +1,7 @@
-// import 
+import pup1 from "../assets/images/pup-1.jpg";
+import pup2 from "../assets/images/pup-2.jpg";
+import pup3 from "../assets/images/pup-3.jpg";
+import pup4 from "../assets/images/pup-4.jpg";
 
 const RandomInfo = () => {
     
@@ -15,19 +18,19 @@ const RandomInfo = () => {
         <p style={randomInfoDivStyle}>Current Pupbook users.</p>
         <div className="cards">
             <div className="card">
-                <img src="./resources/pup-1.jpg" alt="pupper 1" width="200px" height="200px" style={{borderRadius: "12px"}}/>
+                <img src={pup1} alt="pupper 1" width="200px" height="200px" style={{borderRadius: "12px"}}/>
                 <p style={{textAlign: "center"}}>Hi! My name is Pupper and I'm a corgi</p>
             </div>    
             <div className="card">
-                <img src="./resources/pup-2.jpg" alt="pupper 2" width="200px" height="200px" style={{borderRadius: "12px"}}/>
+                <img src={pup2} alt="pupper 2" width="200px" height="200px" style={{borderRadius: "12px"}}/>
                 <p style={{textAlign: "center"}}>Hi! My name is Upper and I'm a smol bean</p>
             </div>    
             <div className="card">
-                <img src="./resources/pup-3.jpg" alt="pupper 3" width="200px" height="200px" style={{borderRadius: "12px"}}/>
+                <img src={pup3} alt="pupper 3" width="200px" height="200px" style={{borderRadius: "12px"}}/>
                 <p style={{textAlign: "center"}}>Hi! My name is doge and I'm a Shiba Inu</p>
             </div>
             <div className="card">
-                <img src="./resources/pup-4.jpg" alt="pupper 4" width="200px" height="200px" style={{borderRadius: "12px"}}/>
+                <img src={pup4} alt="pupper 4" width="200px" height="200px" style={{borderRadius: "12px"}}/>
                 <p style={{textAlign: "center"}}>Hi! My name is Windy and I'm a pomeranian</p>
             </div>        
         </div>

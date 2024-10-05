@@ -1,24 +1,8 @@
-//creating a component here
-
+import GreyDiv from "./components/GreyDiv";
 import Header from "./components/Header";
 import RandomInfo from "./components/RandomInfo";
 
 const App = () =>{
-
-  const greyDivStyle = {
-    marginTop: "180px", 
-    fontSize: "36px",
-    fontStyle: "italic", 
-    fontWeight: "100",
-    color: "#1F2937"
-  }
-
-  const greyDivStyleThor = {
-    fontSize: "24px",
-    textAlign: "end", 
-    marginBottom: "120px",
-    fontWeight: "bold"
-  }
 
   const blueBoxDivStyle = {
     margin: "80px 80p",
@@ -49,14 +33,7 @@ const App = () =>{
     <>
     <Header />
     <RandomInfo />
-    <div className="grey-div">
-        <p style={greyDivStyle}>
-            I love using Pupbook! All my friends use Pupbook and invite me for parties using pupbook! It's also a place where us dogs can bitch(hehe) about our owners.
-        </p>
-        <p style={greyDivStyleThor}>
-            -Thor, God of Thunder
-        </p>
-    </div>
+    <GreyDiv />
     <div className="blue-box-div" style={blueBoxDivStyle}>
         <div style={blueBoxDivStyleTwo}>
             <p style={blueBoxDivPOneStyle}>Call to action! It's time!</p>
