@@ -12,7 +12,7 @@ const App = () =>{
     <RandomInfo />
     <GreyDiv />
     <BlueBox />
-    <Footer />
+    <Footer symbol="&copy;"/> {/* The symbol is a props which is basically an argument. This argument was defined/placed in the Footer component */}
     </>
   );
 };
